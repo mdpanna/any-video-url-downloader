@@ -1,0 +1,5 @@
+PyQt5
+yt-dlp
+supabase
+requests
+packaging
