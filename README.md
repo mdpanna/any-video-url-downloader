@@ -87,6 +87,3 @@ The project is structured into several key components:
 
 This project is licensed under the terms specified in the `LICENSE` file.
 
-## Version
-
-Current version information can be found in `version.txt`
