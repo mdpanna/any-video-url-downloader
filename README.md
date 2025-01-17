@@ -39,7 +39,7 @@ any-video-url-downloader/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/any-video-url-downloader.git](https://github.com/mdpanna/any-video-url-downloader.git
+git clone https://github.com/mdpanna/any-video-url-downloader.git
 cd any-video-url-downloader
 ```
 
