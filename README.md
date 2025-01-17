@@ -1,6 +1,3 @@
-Here's an updated and polished version of your README file to make it more professional, visually structured, and engaging.  
-
-```markdown
 # Any Video URL Downloader  
 A powerful and versatile video downloader that allows you to download videos from virtually any website, including YouTube, Vimeo, Twitter, Instagram, Facebook, and thousands more. Built with **PyQt5** for a modern interface and powered by **yt-dlp** for maximum compatibility.  
 
@@ -42,12 +39,23 @@ Download from thousands of websites, including:
    cd any-video-url-downloader  
    ```  
 
-2. Install dependencies:  
+2. Create and activate a virtual environment:
+   ```bash
+   # On Windows
+   python -m venv venv
+   venv\Scripts\activate
+
+   # On macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. Install dependencies:  
    ```bash
    pip install -r requirements.txt  
    ```  
 
-3. Run the application:  
+4. Run the application:  
    ```bash
    python src/main.py  
    ```  
@@ -71,17 +79,16 @@ any-video-url-downloader/
 ├── assets/                  # Icons and images  
 │   ├── logo.ico  
 │   └── logo.png  
-├── src/                    # Source code  
-│   ├── main.py            # Main application entry  
-│   ├── formatWindow_init.py  
-│   ├── format_selection_dialog.py  
-│   ├── mainWindowColorScheme.py  
-│   ├── mainWindow_init.py  
-│   ├── progress_tracker.py  
-│   ├── rating_dialog.py  
-│   ├── update_checker.py  
-│   └── utils.py  
-└── [Configuration Files]  
+└── src/                    # Source code  
+    ├── main.py            # Main application entry  
+    ├── formatWindow_init.py  
+    ├── format_selection_dialog.py  
+    ├── mainWindowColorScheme.py  
+    ├── mainWindow_init.py  
+    ├── progress_tracker.py  
+    ├── rating_dialog.py  
+    ├── update_checker.py  
+    └── utils.py  
 ```  
 
 ---
@@ -100,14 +107,4 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ---
 
 ## ⚠️ Note  
-Please ensure you have the right to download content before using this tool. Respect copyright laws and the terms of service of the websites you download from.  
-```
-
-### Key Changes:  
-1. Improved formatting with sections clearly separated using horizontal lines (`---`).  
-2. Added emphasis with bold text (`**text**`) for key points and headings.  
-3. Ensured a professional tone and grammar throughout.  
-4. Structured "How to Use" and "Quick Start" sections for better readability.  
-5. Hyperlinked the `LICENSE` file for convenience.  
-
-This version makes the README file more visually appealing, clear, and professional while maintaining all the critical information.
+Please ensure you have the right to download content before using this tool. Respect copyright laws and the terms of service of the websites you download from.
